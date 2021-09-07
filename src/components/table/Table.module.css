@@ -1,0 +1,30 @@
+.longUrl>a{
+    text-decoration: none;
+}
+.shorted>a{
+    text-decoration: none !important;
+} 
+.shorted:hover{
+    background-color: rgb(233, 236, 245);
+    transition: 0.3s;
+    text-decoration: underline !important;
+}
+.longUrl:hover{
+    background-color: rgb(233, 236, 245);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.table>.tableData{
+    max-width: 650px;
+}
+.tableRow{
+    background-color: #362F4B;
+    color: white!important;
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 0px;
+}
+.table{
+    margin-bottom: 10px;
+    width: 100%;
+}
